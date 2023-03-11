@@ -19,16 +19,4 @@ body {
   MOBILE VERSION
 -------------------------- */
 @media (max-width: 600px) {
-  .mobile-media {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-  }
-  .mobile-media li {
-    margin-right: 10px;
-  }
-  .mobile-media li:last-child {
-    margin-right: 0;
-  }
 }

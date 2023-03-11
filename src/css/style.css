@@ -13,3 +13,11 @@ nav .badge {
   top: 20px;
   right: 23px;
 }
+.indigo {
+  box-shadow: 1px 1px 3px #3f51b5;
+}
+
+.right li:active {
+  color: red;
+  background-color: none !important;
+}

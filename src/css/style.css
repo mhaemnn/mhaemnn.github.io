@@ -8,11 +8,9 @@ body {
   font-family: "Dana2", sans-serif;
 }
 
-nav .badge {
-  position: relative;
-  top: 20px;
-  right: 23px;
-}
 .indigo {
   box-shadow: 1px 1px 3px #3f51b5;
+}
+.nav-wrapper a {
+  background-color: transparent !important;
 }

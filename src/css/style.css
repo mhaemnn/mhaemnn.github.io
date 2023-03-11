@@ -1,3 +1,13 @@
+@font-face {
+  font-family: "Dana2";
+  src: url("/src/font/dana-regular.woff") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  font-family: "Dana2", sans-serif;
+}
+
 nav .badge {
   position: relative;
   top: 20px;

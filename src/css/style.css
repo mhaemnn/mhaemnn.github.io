@@ -87,6 +87,13 @@ body {
   font-weight: 500;
   color: #000;
 }
+.container header .head_photo {
+  width: 334px;
+  height: 290px;
+  background-image: url(/src/img/banner.png);
+  background-size: cover;
+  border: 1px solid white;
+}
 /* ------------------
   Ukuran smartphone
 --------------------- */

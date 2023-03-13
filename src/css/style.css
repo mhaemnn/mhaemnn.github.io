@@ -25,6 +25,7 @@ body {
   min-height: calc(100vh - 176px);
 }
 .container header .head_name h1 {
+  margin-top: 80px;
   font-size: 40px;
   font-weight: 700;
   color: black;
@@ -93,6 +94,7 @@ body {
   color: #000;
 }
 .container header .head_photo {
+  margin-top: 80px;
   width: 334px;
   height: 290px;
   background-image: url(/src/img/banner.png);
@@ -111,6 +113,8 @@ body {
   }
   .container header .head_name {
     width: 340px;
+    margin-top: -50px;
+    margin-left: auto;
   }
   .nav-wrapper a {
     margin-top: 2px;
@@ -121,6 +125,9 @@ body {
   .container header .head_name .link_personal {
     justify-content: center;
     align-items: center;
+  }
+  .container header .head_photo {
+    margin-top: 20px;
   }
 }
 

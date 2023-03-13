@@ -19,13 +19,68 @@ body {
 }
 
 /* home */
+.container header .head_name h1 {
+  font-size: 30px;
+  font-weight: 800;
+}
+.container header .head_name h1 #specialist {
+  font-size: 16px;
+  font-weight: 600;
+  padding: 5px 13px;
+  background-color: #3f51b5;
+  color: white;
+  border-radius: 3px;
+  position: relative;
+  top: -5px;
+}
+.container header .head_name p {
+  font-size: 12px;
+  font-weight: 500;
+}
+.container header .head_name .link_personal {
+  font-weight: 700;
+  font-size: 12px;
+  display: flex;
+  margin: 16px 0;
+  align-items: center;
+}
 
+.container header .head_name .link_personal .hire_me {
+  padding: 6px 15px;
+  background-color: #3f51b5;
+  display: inline-block;
+  margin-right: 12px;
+  text-decoration: none;
+  color: white;
+  border-radius: 3px;
+  transition: all 0.3s ease-in-out;
+}
+.container header .head_name .link_personal .hire_me:hover {
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.container header .head_name .link_personal .talk {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  display: flex;
+  padding: 3px 6px;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+  box-sizing: border-box;
+}
 /* ------------------
   Ukuran smartphone
 --------------------- */
 @media only screen and (max-width: 767px) {
   .nav-wrapper a {
     margin-top: 2px;
+  }
+  .container header .head_name h1 #specialist {
+    font-size: 14px;
+  }
+  .container header .head_name .link_personal {
+    justify-content: center;
+    align-items: center;
   }
 }
 

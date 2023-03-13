@@ -59,6 +59,7 @@ body {
 }
 
 .container header .head_name .link_personal .hire_me {
+  font-size: 14px;
   padding: 6px 15px;
   background-color: #3f51b5;
   display: inline-block;
@@ -96,6 +97,14 @@ body {
   font-size: 14px;
   font-weight: 500;
   color: #000;
+}
+.container header .head_name .contact_email div a {
+  font-size: 15px;
+  font-weight: 500;
+  color: #000;
+}
+.container header .head_name .contact_email div a:hover {
+  color: #3f51b5;
 }
 .container header .head_photo {
   margin-top: 80px;

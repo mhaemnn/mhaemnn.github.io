@@ -22,6 +22,7 @@ body {
 .container header .head_name h1 {
   font-size: 40px;
   font-weight: 700;
+  color: black;
 }
 .container header .head_name h1 #specialist {
   font-size: 16px;
@@ -36,6 +37,7 @@ body {
 .container header .head_name p {
   font-size: 12px;
   font-weight: 500;
+  color: black;
 }
 .container header .head_name .link_personal {
   font-weight: 700;
@@ -43,6 +45,7 @@ body {
   display: flex;
   margin: 16px 0;
   align-items: center;
+  color: #000;
 }
 
 .container header .head_name .link_personal .hire_me {
@@ -60,7 +63,7 @@ body {
 }
 .container header .head_name .link_personal .talk {
   text-decoration: none;
-  color: rgb(0, 0, 0);
+  color: #000;
   display: flex;
   padding: 3px 6px;
   justify-content: center;

@@ -7,12 +7,29 @@
 body {
   font-family: "Dana2", sans-serif;
 }
-
+.indigo {
+  height: 57px;
+}
 .indigo {
   box-shadow: 1px 1px 3px #3f51b5;
 }
 .nav-wrapper a {
+  margin-top: -1px;
   background-color: transparent !important;
 }
 
 /* home */
+
+/* ------------------
+  MOBILE VERSION
+--------------------- */
+/* Ukuran smartphone */
+@media only screen and (max-width: 767px) {
+  .nav-wrapper a {
+    margin-top: 2px;
+  }
+  .sidenav i {
+    width: 30px;
+    margin-top: 2px;
+  }
+}

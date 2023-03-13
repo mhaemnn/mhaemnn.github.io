@@ -118,8 +118,7 @@ body {
 
 /* footer */
 footer {
-  height: 300px;
-  margin: 0 auto;
+  height: 400px;
   background-color: #f6f6f2;
 }
 footer .container {
@@ -131,21 +130,23 @@ footer .container {
 
 footer .container .footer_left {
   width: 40%;
+  margin-bottom: -100px;
 }
 footer .container .footer_left h2 {
   font-size: 40px;
   font-weight: 700;
 }
 footer .container .footer_left p {
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 400;
   margin-top: 7px;
 }
 footer .container .footer_right {
   width: 40%;
+  margin-top: 105px;
 }
 footer .container .footer_right p {
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 600;
   margin-bottom: 12px;
 }
@@ -186,6 +187,9 @@ footer .container .footer_right iframe {
   }
 
   /* footer */
+  footer {
+    height: 550px;
+  }
   footer .container {
     padding: 0 10px;
     justify-content: center;
@@ -203,7 +207,7 @@ footer .container .footer_right iframe {
   }
   footer .container .footer_right iframe {
     width: 300px;
-    margin-left: -4px;
+    margin-left: -3px;
   }
 }
 

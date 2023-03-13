@@ -13,6 +13,7 @@ body {
 .indigo {
   box-shadow: 1px 1px 3px #3f51b5;
 }
+
 .nav-wrapper a {
   margin-top: -1px;
   background-color: transparent !important;
@@ -26,7 +27,7 @@ body {
 }
 .container header .head_name h1 {
   margin-top: 80px;
-  font-size: 40px;
+  font-size: 45px;
   font-weight: 700;
   color: black;
 }
@@ -40,8 +41,11 @@ body {
   position: relative;
   top: -5px;
 }
+.container header .desc {
+  margin-top: -20px;
+}
 .container header .head_name p {
-  font-size: 12px;
+  font-size: 15px;
   font-weight: 500;
   color: black;
 }
@@ -100,6 +104,7 @@ body {
   background-image: url(/src/img/banner.png);
   background-size: cover;
   border: 2px solid #3f51b5;
+  border-radius: 5px;
 }
 /* ------------------
   Ukuran smartphone

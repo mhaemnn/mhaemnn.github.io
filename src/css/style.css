@@ -191,7 +191,7 @@ footer .container .footer_right iframe {
 
   /* footer */
   footer {
-    height: 650px;
+    height: 500px;
   }
   footer .container {
     padding: 0 10px;
@@ -202,7 +202,7 @@ footer .container .footer_right iframe {
   }
   footer .container .footer_left {
     width: 90%;
-    margin: 50px auto 0 auto;
+    margin: 10px auto 0 auto;
   }
   footer .container .footer_right {
     width: 90%;

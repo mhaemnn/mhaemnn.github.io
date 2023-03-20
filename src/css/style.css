@@ -379,7 +379,8 @@
 }
 
 .container main #certification .description_section .card.one {
-  background-image: url(../img/certification1.jpg);
+  background-image: url(../img/cert1.jpg);
+  background-size: cover;
 }
 .container main #certification .description_section .card.two {
   background-image: url(../img/certification2.jpg);
@@ -442,7 +443,7 @@
   box-sizing: border-box;
 }
 .container main #portfolio .description_section .one {
-  background-image: url(../img/mallexibra.png);
+  background-image: url(../img/webmu.png);
   background-size: cover;
   background-position: 0;
 }
@@ -452,7 +453,7 @@
   background-position: 0;
 }
 .container main #portfolio .description_section .three {
-  background-image: url(../img/bookself.png);
+  background-image: url(../img/kalkalator.png);
   background-size: cover;
   background-position: 0;
 }

@@ -118,6 +118,438 @@
   border: 2px solid #3f51b5;
   border-radius: 5px;
 }
+/* main/content */
+.container main section {
+  padding-top: 90px;
+  margin-bottom: 40px;
+}
+.container main #about .tittle_section {
+  font-size: 16px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+}
+.container main #about .tittle_section span {
+  width: 69px;
+  height: 10px;
+  background-color: #b815b0;
+  margin-right: 21px;
+}
+.container main #about .description_section {
+  display: grid;
+  grid-template-areas: "desc desc" "skill listskill";
+  grid-template-columns: 100px auto;
+  align-items: start;
+  column-gap: 20px;
+  padding-left: 90px;
+}
+@media screen and (max-width: 768px) {
+  .container main #about .description_section {
+    padding: 0 10px;
+    grid-template-areas: "desc" "skill" "listskill";
+    grid-template-columns: auto;
+  }
+}
+.container main #about .description_section p {
+  font-size: 14px;
+  font-weight: 500;
+  margin: 20px 0;
+  grid-area: desc;
+}
+.container main #about .description_section h1,
+.container main #about .description_section ul li {
+  font-size: 14px;
+  font-weight: 800;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container main #about .description_section h1 {
+  grid-area: skill;
+}
+@media screen and (max-width: 768px) {
+  .container main #about .description_section h1 {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+  }
+}
+.container main #about .description_section ul {
+  list-style: none;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  grid-area: listskill;
+}
+.container main #about .description_section ul li {
+  background-color: #b815b0;
+  padding: 2px 10px;
+  color: white;
+  border-radius: 3px;
+}
+.container main #experience .tittle_section {
+  font-size: 16px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+}
+.container main #experience .tittle_section span {
+  width: 69px;
+  height: 10px;
+  background-color: #b815b0;
+  margin-right: 21px;
+}
+.container main #experience .description_section {
+  padding-left: 90px;
+  display: grid;
+  grid-template-areas: "education experience";
+  grid-template-columns: repeat(auto-fit, 1fr);
+}
+@media screen and (max-width: 768px) {
+  .container main #experience .description_section {
+    padding: 0 10px;
+    grid-template-areas: "education" "experience";
+    justify-content: center;
+  }
+}
+.container main #experience .description_section .education {
+  grid-area: education;
+}
+.container main #experience .description_section .education h6 {
+  font-size: 16px;
+  font-weight: 700;
+}
+.container main #experience .description_section .education p {
+  font-size: 12px;
+  font-weight: 600;
+}
+.container main #experience .description_section .education p span {
+  opacity: 0.5;
+}
+.container main #experience .description_section .education > h6 {
+  margin: 15px 0;
+}
+.container main #experience .description_section .education ul {
+  position: relative;
+}
+/* .container main #experience .description_section .education ul::before {
+  content: "";
+  position: absolute;
+  top: 10px;
+  left: 1px;
+  width: 3px;
+  height: calc(100% - 32px);
+  background-color: #eae7b1;
+  z-index: 999;
+} */
+.container main #experience .description_section .education ul li {
+  padding-left: 20px;
+  position: relative;
+  list-style: none;
+  margin-bottom: 20px;
+}
+.container main #experience .description_section .education ul li > span {
+  position: absolute;
+  padding: 2px;
+  top: 5px;
+  left: -10px;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #b815b0;
+}
+.container
+  main
+  #experience
+  .description_section
+  .education
+  ul
+  li
+  > span::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background-color: white;
+}
+.container main #experience .description_section .experience {
+  grid-area: experience;
+}
+.container main #experience .description_section .experience h6 {
+  font-size: 16px;
+  font-weight: 700;
+}
+.container main #experience .description_section .experience p {
+  font-size: 12px;
+  font-weight: 600;
+}
+.container main #experience .description_section .experience p span {
+  opacity: 0.5;
+}
+.container main #experience .description_section .experience > h6 {
+  margin: 15px 0;
+}
+.container main #experience .description_section .experience ul {
+  position: relative;
+}
+/* .container main #experience .description_section .experience ul::before {
+  content: "";
+  position: absolute;
+  top: 10px;
+  left: 1px;
+  width: 3px;
+  height: calc(100% - 32px);
+  background-color: white;
+  z-index: 999;
+} */
+.container main #experience .description_section .experience ul li {
+  padding-left: 20px;
+  position: relative;
+  list-style: none;
+  margin-bottom: 20px;
+}
+.container main #experience .description_section .experience ul li > span {
+  position: absolute;
+  padding: 2px;
+  top: 5px;
+  left: -10px;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #b815b0;
+}
+.container
+  main
+  #experience
+  .description_section
+  .experience
+  ul
+  li
+  > span::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background-color: white;
+}
+.container main #certification .tittle_section {
+  font-size: 16px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+}
+.container main #certification .tittle_section span {
+  width: 69px;
+  height: 10px;
+  background-color: #b815b0;
+  margin-right: 21px;
+}
+.container main #certification .description_section {
+  margin-top: 52px;
+  padding-left: 90px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 245px);
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.container main #certification .description_section .card {
+  height: 173px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
+  border-radius: 3px;
+  display: flex;
+  align-items: flex-end;
+}
+.container main #certification .description_section .card .card_detail {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 12px;
+  background-color: white;
+  color: black;
+  text-decoration: none;
+  height: 30%;
+  border-radius: 3px;
+  transition: all 0.3s ease-in-out;
+}
+.container main #certification .description_section .card .card_detail .judul {
+  font-size: 14px;
+  font-weight: 700;
+}
+.container main #certification .description_section .card .card_detail .from {
+  font-size: 10px;
+  font-weight: 500;
+  opacity: 75%;
+}
+.container main #certification .description_section .card:hover .card_detail {
+  height: 100%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.7);
+  box-sizing: border-box;
+}
+@media screen and (max-width: 768px) {
+  .container main #certification .description_section {
+    padding: 0 10px;
+  }
+}
+.container main #certification .description_section .card.one {
+  background-image: url(../img/certification1.jpg);
+}
+.container main #certification .description_section .card.two {
+  background-image: url(../img/certification2.jpg);
+}
+.container main #portfolio .tittle_section {
+  font-size: 16px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+}
+.container main #portfolio .tittle_section span {
+  width: 69px;
+  height: 10px;
+  background-color: #b815b0;
+  margin-right: 21px;
+}
+.container main #portfolio .description_section {
+  margin-top: 52px;
+  padding-left: 90px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 245px);
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.container main #portfolio .description_section .card {
+  height: 173px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
+  border-radius: 3px;
+  display: flex;
+  align-items: flex-end;
+}
+.container main #portfolio .description_section .card .card_detail {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 12px;
+  background-color: white;
+  color: white;
+  text-decoration: none;
+  height: 30%;
+  border-radius: 3px;
+  transition: all 0.3s ease-in-out;
+}
+.container main #portfolio .description_section .card .card_detail .judul {
+  font-size: 14px;
+  font-weight: 700;
+}
+.container main #portfolio .description_section .card .card_detail .from {
+  font-size: 10px;
+  font-weight: 500;
+  opacity: 75%;
+}
+.container main #portfolio .description_section .card:hover .card_detail {
+  height: 100%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.7);
+  box-sizing: border-box;
+}
+.container main #portfolio .description_section .one {
+  background-image: url(../img/mallexibra.png);
+  background-size: cover;
+  background-position: 0;
+}
+.container main #portfolio .description_section .two {
+  background-image: url(../img/IB-Software.png);
+  background-size: cover;
+  background-position: 0;
+}
+.container main #portfolio .description_section .three {
+  background-image: url(../img/bookself.png);
+  background-size: cover;
+  background-position: 0;
+}
+.container main #portfolio .description_section .four {
+  background-image: url(../img/bikinweb.png);
+  background-size: cover;
+  background-position: 0;
+}
+.container main #portfolio .description_section .five {
+  background-image: url(../img/todolist.png);
+  background-size: cover;
+  background-position: 0;
+}
+.container main #portfolio .description_section .six {
+  background-image: url(../img/linktree.png);
+  background-size: cover;
+  background-position: 0;
+}
+.container main #portfolio .description_section .description-card {
+  display: none;
+  font-size: 10px;
+}
+.container main #portfolio .description_section .card:hover .description-card {
+  display: block;
+}
+@media screen and (max-width: 768px) {
+  .container main #portfolio .description_section {
+    padding: 0 10px;
+  }
+}
+.container main #portfolio .description_section .type {
+  width: max-content;
+  font-size: 10px;
+  font-weight: 500;
+  padding: 0 2px;
+  border-radius: 3px;
+  background-color: #b815b0;
+}
+.container main #find_me h1 {
+  font-size: 16px;
+  font-weight: 700;
+  width: max-content;
+  margin: auto;
+  position: relative;
+}
+.container main #find_me h1::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: -5px;
+  right: -5px;
+  height: 10px;
+  background-color: #b815b0;
+  z-index: -1;
+}
+.container main #find_me ul {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+  gap: 10px;
+  list-style: none;
+}
+.container main #find_me ul a:hover {
+  filter: brightness(200%);
+}
+.container main #find_me ul a:hover img {
+  transform: scale(1.2);
+}
+/* akhir main/content */
 
 /* footer */
 footer {

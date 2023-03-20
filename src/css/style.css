@@ -132,7 +132,7 @@
 .container main #about .tittle_section span {
   width: 69px;
   height: 10px;
-  background-color: #b815b0;
+  background-color: #3f51b5;
   margin-right: 21px;
 }
 .container main #about .description_section {
@@ -182,7 +182,7 @@
   grid-area: listskill;
 }
 .container main #about .description_section ul li {
-  background-color: #b815b0;
+  background-color: #3f51b5;
   padding: 2px 10px;
   color: white;
   border-radius: 3px;
@@ -196,7 +196,7 @@
 .container main #experience .tittle_section span {
   width: 69px;
   height: 10px;
-  background-color: #b815b0;
+  background-color: #3f51b5;
   margin-right: 21px;
 }
 .container main #experience .description_section {
@@ -232,16 +232,7 @@
 .container main #experience .description_section .education ul {
   position: relative;
 }
-/* .container main #experience .description_section .education ul::before {
-  content: "";
-  position: absolute;
-  top: 10px;
-  left: 1px;
-  width: 3px;
-  height: calc(100% - 32px);
-  background-color: #eae7b1;
-  z-index: 999;
-} */
+
 .container main #experience .description_section .education ul li {
   padding-left: 20px;
   position: relative;
@@ -256,7 +247,7 @@
   width: 15px;
   height: 15px;
   border-radius: 50%;
-  background-color: #b815b0;
+  background-color: #3f51b5;
 }
 .container
   main
@@ -298,16 +289,7 @@
 .container main #experience .description_section .experience ul {
   position: relative;
 }
-/* .container main #experience .description_section .experience ul::before {
-  content: "";
-  position: absolute;
-  top: 10px;
-  left: 1px;
-  width: 3px;
-  height: calc(100% - 32px);
-  background-color: white;
-  z-index: 999;
-} */
+
 .container main #experience .description_section .experience ul li {
   padding-left: 20px;
   position: relative;
@@ -322,7 +304,7 @@
   width: 15px;
   height: 15px;
   border-radius: 50%;
-  background-color: #b815b0;
+  background-color: #3f51b5;
 }
 .container
   main
@@ -353,7 +335,7 @@
 .container main #certification .tittle_section span {
   width: 69px;
   height: 10px;
-  background-color: #b815b0;
+  background-color: #3f51b5;
   margin-right: 21px;
 }
 .container main #certification .description_section {
@@ -421,7 +403,7 @@
 .container main #portfolio .tittle_section span {
   width: 69px;
   height: 10px;
-  background-color: #b815b0;
+  background-color: #3f51b5;
   margin-right: 21px;
 }
 .container main #portfolio .description_section {
@@ -517,7 +499,7 @@
   font-weight: 500;
   padding: 0 2px;
   border-radius: 3px;
-  background-color: #b815b0;
+  background-color: #3f51b5;
 }
 .container main #find_me h1 {
   font-size: 16px;
@@ -533,7 +515,7 @@
   left: -5px;
   right: -5px;
   height: 10px;
-  background-color: #b815b0;
+  background-color: #3f51b5;
   z-index: -1;
 }
 .container main #find_me ul {

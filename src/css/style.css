@@ -383,7 +383,8 @@
   background-size: cover;
 }
 .container main #certification .description_section .card.two {
-  background-image: url(../img/certification2.jpg);
+  background-image: url(../img/cert2.jpg);
+  background-size: cover;
 }
 .container main #portfolio .tittle_section {
   font-size: 16px;

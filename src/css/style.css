@@ -123,8 +123,12 @@
   padding-top: 90px;
   margin-bottom: 40px;
 }
+.container main section h1 {
+  color: black;
+  font-size: 30px;
+  font-weight: 700;
+}
 .container main #about .tittle_section {
-  font-size: 16px;
   font-weight: 700;
   display: flex;
   align-items: center;
@@ -156,6 +160,7 @@
   margin: 20px 0;
   grid-area: desc;
 }
+
 .container main #about .description_section h1,
 .container main #about .description_section ul li {
   font-size: 14px;
@@ -244,8 +249,8 @@
   padding: 2px;
   top: 5px;
   left: -10px;
-  width: 15px;
-  height: 15px;
+  width: 20px;
+  height: 20px;
   border-radius: 50%;
   background-color: #3f51b5;
 }
@@ -301,8 +306,8 @@
   padding: 2px;
   top: 5px;
   left: -10px;
-  width: 15px;
-  height: 15px;
+  width: 20px;
+  height: 20px;
   border-radius: 50%;
   background-color: #3f51b5;
 }

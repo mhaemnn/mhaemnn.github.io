@@ -459,7 +459,7 @@
   background-position-x: -30px;
 }
 .container main #portfolio .description_section .four {
-  background-image: url(../img/bikinweb.png);
+  background-image: url(../img/desainaja.PNG);
   background-size: cover;
   background-position-x: -30px;
 }
@@ -469,9 +469,9 @@
   background-position-x: -30px;
 }
 .container main #portfolio .description_section .six {
-  background-image: url(../img/linktree.png);
+  background-image: url(../img/peramalan-cuaca.PNG);
   background-size: cover;
-  background-position: 0;
+  background-position: -30px;
 }
 .container main #portfolio .description_section .description-card {
   display: none;

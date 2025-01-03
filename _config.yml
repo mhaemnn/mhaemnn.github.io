@@ -1,17 +1,42 @@
-# -----------------------------------------------------------------------
-# stie setting
-# -----------------------------------------------------------------------
-title: muhaemin
-email: muhaemin@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  A simple, whitespace theme for academics. Base on design.
-url: "https://github.mhaemnn.io" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "" # the subpath of your site, e.g. /blog
+header:
+  pages:
+    - name: Home
+      slug: / # <-- index.md
+    - name: Blog # <-- blog.md
+    - name: Whatever # <-- whatever.md
 
-github_username: mhaemnn
-
+footer:
+  show_powered_by: true
+  contact:
+    - type: email
+      name: Email
+      value: yourmail@domain.com
+    - type: wechat
+      value: YourWeChatUsername
+      link: "#"
+  follow:
+    - type: twitter
+      name: Twitter
+      link: http://twitter.com/YourTwitterUsername
+      username: "@YourTwitterUsername"
+    - type: facebook
+      name: Facebook
+      link: http://facebook.com/YourFacebookUsername
+    - type: linkedin
+      name: LinkedIn
+      link: http://linkedin.com/in/YourLinkedInUsername
+    - type: github
+      name: GitHub
+      link: http://github.com/YourGitHubUsername
+    - type: dribbble
+      name: Dribbble
+      link: https://dribbble.com/YourDribbbleUsername
+    - type: rss
+      name: RSS
+      link: /feed.xml
 # Build settings
-theme: minima
+theme: bay_jekyll_theme
+
 plugins:
   - jekyll-feed
 # Exclude from processing.

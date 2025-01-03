@@ -1,7 +1,7 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
-title: Bay Jekyll Theme
+title: muhaemin
 description: Bay is a minimal Jekyll Theme.
 baseurl: ""
 url: "https://mhaemnn.github.io"
@@ -48,7 +48,7 @@ footer:
 # Build settings
 markdown: kramdown
 sass:
-    style: :compressed
+  style: :compressed
 plugins:
   - jekyll-feed
 

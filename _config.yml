@@ -1,9 +1,19 @@
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+title: Bay Jekyll Theme
+description: Bay is a minimal Jekyll Theme.
+baseurl: ""
+url: "https://mhaemnn.github.io"
+og_image: /assets/img/profile-pic.jpg
+google_analytics: "UA-121636368-3"
+
 header:
   pages:
     - name: Home
-      slug: / # <-- index.md
-    - name: Blog # <-- blog.md
-    - name: Whatever # <-- whatever.md
+      slug: /
+    - name: Work
+    - name: Blog
 
 footer:
   show_powered_by: true
@@ -27,34 +37,33 @@ footer:
       link: http://linkedin.com/in/YourLinkedInUsername
     - type: github
       name: GitHub
-      link: http://github.com/YourGitHubUsername
+      link: http://github.com/mhaemnn
     - type: dribbble
       name: Dribbble
       link: https://dribbble.com/YourDribbbleUsername
     - type: rss
       name: RSS
       link: /feed.xml
-# Build settings
-theme: bay_jekyll_theme
 
+# Build settings
+markdown: kramdown
+sass:
+    style: :compressed
 plugins:
   - jekyll-feed
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+
+# Excluded items
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - feed.xml
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+# Used for defeating caching
+version: 1

@@ -6,7 +6,8 @@ profile_picture:
 ---
 
 <p>
-  Welcome! This site serves as an example for the Bay Jekyll theme. Bay is a very simple and minimal theme, directly inspired by Dan Grover's <a href="http://dangrover.com">website</a>.
+  WI'm a product designer, engineer, and entrepreneur. I grew up in Vermont and have lived in Boston, New York, and San Francisco, and Guangzhou. Right now, I'm in Oakland, CA. When I'm not working, I'm running, reading, traveling, and trying new foods.
+
 </p>
 
 <p>

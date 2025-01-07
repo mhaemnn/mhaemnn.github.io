@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>{{ page.title}}</title>
+        <link rel="stylesheet" href="/assets/css/layouts.css">
+    </head>
+    <body>
+        <!-- This is Header -->
+        <header>
+            <h1>{{ site.title }}</h1>
+        </header>
+
+        <!-- This is Content -->
+        <main>
+            {{ content }}
+        </main>
+
+        <!-- This is Footer -->
+        <footer>
+            <p>&copy; {{ site.time | date: "%Y" }} {{ site.title }}</p>
+        </footer>
+    </body>
+</html>

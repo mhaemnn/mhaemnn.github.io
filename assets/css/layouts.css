@@ -3,15 +3,17 @@ body {
   line-height: 1.6;
   margin: 0;
   padding: 0;
-  background-color: #f4f4f4;
 }
 
-header,
 footer {
-  background: #333;
+  position: fixed;
+  background: #1c1c1d;
   color: #fff;
-  padding: 10px 20px;
   text-align: center;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 0;
 }
 
 main {
